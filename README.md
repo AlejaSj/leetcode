@@ -4,6 +4,7 @@
 - [TwoSum](#1-two-sum---easy)
 - [Palindrome Number](#9-palindrome-number---easy)
 - [Roman to Integer](#13-roman-to-integer---easy)
+- [Longest Common Prefix](#14-longest-common-prefix---easy)
 
 
 ***
@@ -44,6 +45,25 @@ Roman numerals are usually written largest to smallest from left to right. Howev
     C can be placed before D (500) and M (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer.
+
+### 14. Longest Common Prefix - Easy
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string `""`.
+
+ 
+
+Example 1:
+
+Input: `strs = ["flower","flow","flight"]`
+Output: `"fl"`
+
+Example 2:
+
+Input: `strs = ["dog","racecar","car"]`
+Output: `""`
+Explanation: There is no common prefix among the input strings.
 
 
 ***
