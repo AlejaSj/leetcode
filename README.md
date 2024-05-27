@@ -6,6 +6,7 @@
 - [Roman to Integer](#13-roman-to-integer---easy)
 - [Longest Common Prefix](#14-longest-common-prefix---easy)
 - [Valid Parentheses](#20-valid-parentheses---easy)
+- [Merge Two Sorted List](#21-merge-two-sorted-lists---easy)
 
 
 ***
@@ -62,6 +63,13 @@ An input string is valid if:
 2. Open brackets must be closed in the correct order.
 3. Every close bracket has a corresponding open bracket of the same type.
 
+### 21. Merge Two Sorted Lists - Easy
+
+You are given the heads of two sorted linked lists `list1` and `list2`.
+
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+Return the head of the merged linked list.
 ***
 
 
