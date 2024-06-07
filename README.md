@@ -2,12 +2,18 @@
 
 ## Problemas Resueltos
 - [TwoSum](#1-two-sum---easy)
+- [Add Two Numbers](#2-add-two-numbers---medium)
 - [Palindrome Number](#9-palindrome-number---easy)
 - [Roman to Integer](#13-roman-to-integer---easy)
 - [Longest Common Prefix](#14-longest-common-prefix---easy)
 - [Valid Parentheses](#20-valid-parentheses---easy)
 - [Merge Two Sorted List](#21-merge-two-sorted-lists---easy)
-- [Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array---easy)
+- [Remove Element](#27-remove-element---easy)
+- [Find the Index of the First Occurrence in a String](#28-find-the-index-of-the-first-occurrence-in-a-string---easy)
+- [Search Insert Position](#35-search-insert-position---easy)
+- [Length of Last Word](#58-length-of-last-word---easy)
+- [Plus One](#66-plus-one---easy)
+- [Add Binary](#67-add-binary)
 
 
 ***
@@ -20,6 +26,15 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 You can return the answer in any order.
+
+### 2. Add Two Numbers - Medium
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+![addtwonumber1](https://github.com/AlejaSj/leetcode/assets/170385707/ed1b2e45-5c28-44a1-ab8f-efc96ca3a4d8)
+
 
 ### 9. Palindrome Number - Easy
 
@@ -81,6 +96,43 @@ Consider the number of unique elements of `nums` to be `k`, to get accepted, you
 - Change the array `nums` such that the first `k` elements of `nums` contain the unique elements in the order they were present in `nums` initially. The remaining elements of `nums` are not important as well as the size of nums.
 - Return `k`.
 
+### 27. Remove Element - Easy
+
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+
+Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
+
+- Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
+
+- Return k.
+
+### 28. Find the Index of the First Occurrence in a String - Easy
+
+Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.
+
+### 35. Search Insert Position - Easy
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+### 58. Length of Last Word - Easy
+
+Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+A word is a maximal
+substring
+consisting of non-space characters only.
+
+### 66. Plus One - Easy
+
+You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+
+Increment the large integer by one and return the resulting array of digits.
+
+### 67. Add Binary
+
+Given two binary strings a and b, return their sum as a binary string.
 
 ***
 
